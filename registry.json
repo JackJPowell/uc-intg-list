@@ -168,6 +168,7 @@
       "features": ["media_player"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "anthemav"
     },
     {
@@ -180,6 +181,7 @@
       "features": ["light", "switch", "cover"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "uc_intg_bond"
     },
     {
@@ -192,6 +194,7 @@
       "features": ["sensor"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "uc-intg-cctv"
     },
     {
@@ -204,6 +207,7 @@
       "features": ["media_player"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "uc-intg-emby"
     },
     {
@@ -216,6 +220,7 @@
       "features": ["media_player"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "emotiva"
     },
     {
@@ -228,6 +233,7 @@
       "features": ["switch"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "uc-intg-hdfury"
     },
     {
@@ -240,6 +246,7 @@
       "features": ["media_player"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "uc-intg-heos"
     },
     {
@@ -252,6 +259,7 @@
       "features": ["media_player", "remote"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "horizon"
     },
     {
@@ -264,6 +272,7 @@
       "features": ["media_player", "sensor"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "uc_intg_htpc"
     },
     {
@@ -276,6 +285,7 @@
       "features": ["media_player"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "lmserver"
     },
     {
@@ -288,6 +298,7 @@
       "features": ["switch"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "madvr"
     },
     {
@@ -300,6 +311,7 @@
       "features": ["media_player"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "uc_intg_yamaha_musiccast"
     },
     {
@@ -312,6 +324,7 @@
       "features": ["media_player"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "uc_naim_driver"
     },
     {
@@ -324,6 +337,7 @@
       "features": ["sensor"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "uc_intg_nzbinfo"
     },
     {
@@ -336,6 +350,7 @@
       "features": ["cover"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "uc_intg_rvolution"
     },
     {
@@ -348,6 +363,7 @@
       "features": ["media_player", "remote"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "uc_intg_skyq"
     },
     {
@@ -360,6 +376,7 @@
       "features": ["light", "switch", "sensor"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "smartthings"
     },
     {
@@ -372,6 +389,7 @@
       "features": ["media_player"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "spotify"
     },
     {
@@ -384,6 +402,7 @@
       "features": ["sensor"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "uc-intg-steam"
     },
     {
@@ -396,6 +415,7 @@
       "features": ["sensor"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "uc_synology_system"
     },
     {
@@ -408,6 +428,7 @@
       "features": ["sensor"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "weather_display"
     },
     {
@@ -420,6 +441,7 @@
       "features": ["media_player"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "uc-intg-wiim"
     },
     {
@@ -432,6 +454,7 @@
       "features": ["media_player", "remote"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "uc-intg-xbox"
     },
     {
@@ -444,6 +467,7 @@
       "features": ["sensor"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "uc-intg-xbox_live"
     },
     {
@@ -456,6 +480,7 @@
       "features": ["media_player", "remote"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "kodi_driver"
     },
     {
@@ -468,6 +493,7 @@
       "features": ["media_player", "remote"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "lgwebos_driver"
     },
     {
@@ -480,6 +506,7 @@
       "features": ["media_player"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "mpchc_driver"
     },
     {
@@ -492,6 +519,7 @@
       "features": ["media_player", "remote"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "orangetv_driver"
     },
     {
@@ -504,6 +532,7 @@
       "features": ["media_player"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "sonyavr_driver"
     },
     {
@@ -516,6 +545,7 @@
       "features": ["media_player", "remote"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "sonybluray_driver"
     },
     {
@@ -528,6 +558,7 @@
       "features": ["media_player", "remote"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "zidootv_driver"
     },
     {
@@ -540,6 +571,7 @@
       "features": ["media_player", "remote"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "panasonicbluray_driver"
     },
     {
@@ -552,6 +584,7 @@
       "features": ["media_player"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "sonyadcp"
     },
     {
@@ -564,6 +597,7 @@
       "features": ["switch"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "requests"
     },
     {
@@ -576,6 +610,7 @@
       "features": ["media_player"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "sonysdcp"
     },
     {
@@ -588,6 +623,7 @@
       "features": ["media_player", "remote"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "ucr2_dunehd_driver"
     },
     {
@@ -600,6 +636,7 @@
       "features": ["media_player", "remote"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "adbtv-unfolded-circle"
     },
     {
@@ -612,6 +649,7 @@
       "features": ["media_player", "remote"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "oppo-unfolded-circle"
     },
     {
@@ -624,6 +662,7 @@
       "features": ["media_player"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "onkyo_avr"
     },
     {
@@ -636,6 +675,7 @@
       "features": ["media_player", "remote"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "dreambox_driver"
     },
     {
@@ -648,6 +688,7 @@
       "features": ["light", "switch"],
       "official": false,
       "custom": true,
+      "supports_backup": false,
       "driver_id": "matter_driver"
     },
     {
@@ -667,6 +708,7 @@
         "sensor"
       ],
       "official": true,
+      "supports_backup": false,
       "custom": false
     },
     {
@@ -679,7 +721,8 @@
       "categories": ["av-receiver"],
       "features": ["media_player"],
       "official": true,
-      "custom": false
+      "custom": false,
+      "supports_backup": false
     },
     {
       "id": "uc-intg-androidtv",
@@ -691,7 +734,8 @@
       "categories": ["media-player", "streaming"],
       "features": ["media_player", "remote"],
       "official": true,
-      "custom": false
+      "custom": false,
+      "supports_backup": false
     },
     {
       "id": "uc-intg-appletv",
@@ -703,7 +747,8 @@
       "categories": ["media-player", "streaming"],
       "features": ["media_player", "remote"],
       "official": true,
-      "custom": false
+      "custom": false,
+      "supports_backup": false
     },
     {
       "id": "integration-globalcache",
@@ -715,7 +760,8 @@
       "categories": ["remote"],
       "features": ["remote"],
       "official": true,
-      "custom": false
+      "custom": false,
+      "supports_backup": false
     },
     {
       "id": "integration-roon",
@@ -727,7 +773,8 @@
       "categories": [],
       "features": [],
       "official": true,
-      "custom": false
+      "custom": false,
+      "supports_backup": false
     },
     {
       "id": "integration-sonos",
@@ -739,7 +786,8 @@
       "categories": [],
       "features": [],
       "official": true,
-      "custom": false
+      "custom": false,
+      "supports_backup": false
     },
     {
       "id": "integration-bang-olufsen",
@@ -751,7 +799,8 @@
       "categories": [],
       "features": [],
       "official": true,
-      "custom": false
+      "custom": false,
+      "supports_backup": false
     },
     {
       "id": "integration-roku",
@@ -763,7 +812,8 @@
       "categories": [],
       "features": [],
       "official": true,
-      "custom": false
+      "custom": false,
+      "supports_backup": false
     },
     {
       "id": "integration-hue",
@@ -775,6 +825,7 @@
       "categories": [],
       "features": [],
       "official": true,
+      "supports_backup": false,
       "custom": false
     }
   ],
