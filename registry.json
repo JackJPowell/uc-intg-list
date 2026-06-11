@@ -1040,6 +1040,20 @@
       "driver_id": "lumagen"
     },
     {
+      "id": "uc-spotify-integration",
+      "name": "Spotify",
+      "description": "Control multiple Spotify accounts with playback, media browsing, search, and library access.",
+      "author": "Michael Wood",
+      "repository": "https://github.com/mwood77/unfolded-circle-spotify-integration",
+      "categories": ["media-player", "streaming"],
+      "features": ["media_player", "remote", "sensor", "select"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "backup_min_version": "4.2.1",
+      "driver_id": "uc-spotify-integration"
+    },
+    {
       "id": "uc-intg-hass",
       "name": "Home Assistant",
       "description": "Integration for the Home Assistant smart home platform",
