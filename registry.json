@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "version": "1.0.0",
   "description": "Community custom integrations registry for Unfolded Circle Remote. Official integrations delivered with firmware are read-only and not managed by this registry.",
-  "last_updated": "2026-07-04",
+  "last_updated": "2026-07-16",
   "integrations": [
     {
       "id": "uc-intg-broadlink",
@@ -1224,6 +1224,19 @@
       "driver_id": "acmeda_pulse"
     },
     {
+      "id": "uc-dashboard",
+      "name": "UC Dashboard",
+      "description": "UC Dashboard Integration for Unfolded Circle Remotes",
+      "author": "jstnjx",
+      "repository": "https://github.com/jstnjx/uc-dashboard",
+      "categories": ["home-automation", "utility"],
+      "features": [""],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "uc_dashboard"
+    },
+    {
       "id": "uc-intg-hass",
       "name": "Home Assistant",
       "description": "Integration for the Home Assistant smart home platform",
@@ -1580,6 +1593,12 @@
       "name": "dgaust",
       "description": "",
       "homepage": "https://github.com/dgaust",
+      "sponsorship_links": {}
+    },
+    {
+      "name": "jstnjx",
+      "description": "",
+      "homepage": "https://github.com/jstnjx",
       "sponsorship_links": {}
     },
     {
