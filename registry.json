@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "version": "1.0.0",
   "description": "Community custom integrations registry for Unfolded Circle Remote. Official integrations delivered with firmware are read-only and not managed by this registry.",
-  "last_updated": "2024-12-07",
+  "last_updated": "2026-07-16",
   "integrations": [
     {
       "id": "uc-intg-broadlink",
@@ -474,7 +474,8 @@
       "features": ["sensor"],
       "official": false,
       "custom": true,
-      "supports_backup": false,
+      "supports_backup": true,
+      "backup_min_version": "3.0.0",
       "driver_id": "weather_display"
     },
     {
@@ -716,6 +717,58 @@
       "driver_id": "vidaa"
     },
     {
+      "id": "uc-intg-whisker",
+      "name": "Whisker Litter Robot",
+      "description": "Control your Whisker Litter Robot Devices",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-whisker",
+      "categories": ["sensor", "remote"],
+      "features": ["remote", "sensor", "select"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "whisker"
+    },
+    {
+      "id": "uc-intg-epson-pjlink",
+      "name": "Epson PJLink Projectors",
+      "description": "Control your network-connected Epson projectors via PJLink protocol",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-epson-pjlink",
+      "categories": ["media-player", "remote", "projector"],
+      "features": ["media_player", "remote"],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "uc-intg-epson-pj"
+    },
+    {
+      "id": "uc-intg-nanoleaf",
+      "name": "Nanoleaf Smart Lighting",
+      "description": "Integration for Nanoleaf lights",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-nanoleaf",
+      "categories": ["lighting"],
+      "features": ["lighting", "sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "uc_intg_nanoleaf"
+    },
+    {
+      "id": "uc-intg-nasa",
+      "name": "NASA Mission Control",
+      "description": "Integration for NASA data feeds",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-nasa",
+      "categories": ["utility"],
+      "features": ["media_player"],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "uc_intg_nasa"
+    },
+    {
       "id": "uc-intg-lyngdorf",
       "name": "Lyngdorf",
       "description": "Lyngdorf processor/amplifier integration",
@@ -833,13 +886,26 @@
       "driver_id": "panasonicbluray_driver"
     },
     {
+      "id": "integration-lgsoundbar",
+      "name": "LG Soundbar",
+      "description": "Integration for LG Soundbar devices",
+      "author": "albaintor",
+      "repository": "https://github.com/albaintor/integration-lgsoundbar",
+      "categories": ["media-player"],
+      "features": ["media_player", "remote"],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "lgsoundbar_driver"
+    },
+    {
       "id": "ucr-integration-sonyADCP",
       "name": "Sony ADCP Projector",
       "description": "Integration for Unfolded Circle Remotes to control Sony projectors that support the ADCP protocol",
       "author": "kennymc.c",
       "repository": "https://github.com/kennymc-c/ucr-integration-sonyADCP",
       "categories": ["projector"],
-      "features": ["media_player"],
+      "features": ["media_player", "remote", "sensor", "select"],
       "official": false,
       "custom": true,
       "supports_backup": false,
@@ -852,7 +918,7 @@
       "author": "kennymc.c",
       "repository": "https://github.com/kennymc-c/ucr2-integration-requests",
       "categories": ["utility", "home-automation"],
-      "features": ["switch"],
+      "features": ["media_player", "remote", "sensor", "select"],
       "official": false,
       "custom": true,
       "supports_backup": false,
@@ -865,7 +931,7 @@
       "author": "kennymc.c",
       "repository": "https://github.com/kennymc-c/ucr2-integration-sonySDCP",
       "categories": ["projector"],
-      "features": ["media_player"],
+      "features": ["media_player", "remote", "sensor"],
       "official": false,
       "custom": true,
       "supports_backup": false,
@@ -998,7 +1064,7 @@
       "driver_id": "uc-intg-hubitat"
     },
     {
-      "id": "uc-intg-kaleidescape",
+      "id": "uc-integration-kaleidescape",
       "name": "Kaleidescape",
       "description": "Integration for Kaleidescape devices",
       "author": "John J Carey",
@@ -1012,12 +1078,12 @@
       "driver_id": "kaleidescape"
     },
     {
-      "id": "uc-intg-trinnov",
+      "id": "uc-integration-trinnov",
       "name": "Trinnov Altitude",
       "description": "Integration for Trinnov Altitude devices",
       "author": "John J Carey",
       "repository": "https://github.com/johncarey70/uc-integration-trinnov",
-      "categories": ["media-player"],
+      "categories": ["av-receiver"],
       "features": ["media_player", "remote", "sensor", "select"],
       "official": false,
       "custom": true,
@@ -1026,12 +1092,12 @@
       "driver_id": "trinnov"
     },
     {
-      "id": "uc-intg-lumagen",
+      "id": "uc-integration-lumagen",
       "name": "Lumagen Radiance Pro",
       "description": "Integration for Lumagen Radiance Pro devices",
       "author": "John J Carey",
       "repository": "https://github.com/johncarey70/uc-integration-lumagen",
-      "categories": ["media-player"],
+      "categories": ["video-processor"],
       "features": ["media_player", "remote", "sensor"],
       "official": false,
       "custom": true,
@@ -1040,18 +1106,135 @@
       "driver_id": "lumagen"
     },
     {
-      "id": "uc-spotify-integration",
-      "name": "Spotify",
-      "description": "Control multiple Spotify accounts with playback, media browsing, search, and library access.",
-      "author": "Michael Wood",
-      "repository": "https://github.com/mwood77/unfolded-circle-spotify-integration",
-      "categories": ["media-player", "streaming"],
-      "features": ["media_player", "remote", "sensor", "select"],
+      "id": "uc-integration-fyta",
+      "name": "FYTA plant sensors",
+      "description": "Integration for FYTA plant sensors",
+      "author": "FYTA GmbH",
+      "repository": "https://github.com/FYTA-GmbH/uc-integration-fyta",
+      "categories": ["home-automation"],
+      "features": ["sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "fyta_integration"
+    },
+    {
+      "id": "uc-sony",
+      "name": "Sony Audio Control",
+      "description": "Integration for Sony Audio Control API compatible devices (soundbars, receivers, speakers)",
+      "author": "James Smart",
+      "repository": "https://github.com/James-Smart/uc-sony",
+      "categories": ["media-player", "av-receiver", "audio"],
+      "features": ["media_player", "remote"],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "sony_audio"
+    },
+    {
+      "id": "onkyo-remotetwo",
+      "name": "Onkyo AVR",
+      "description": "Integration for Onkyo audio/video receivers",
+      "author": "Quirin Lippl",
+      "repository": "https://github.com/quintz/onkyo-remotetwo",
+      "categories": ["av-receiver"],
+      "features": ["media_player", "remote"],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "onkyoavr"
+    },
+    {
+      "id": "uc-intg-russound",
+      "name": "Russound RIO",
+      "description": "Integration for controlling Russound MCA-88 (and other RIO-compatible) multi-zone audio systems",
+      "author": "ferdaze",
+      "repository": "https://github.com/ferdaze/uc-intg-russound",
+      "categories": ["av-receiver"],
+      "features": ["media_player"],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "russound"
+    },
+    {
+      "id": "uc-intg-ps5-power",
+      "name": "PS4/PS5 Power Control",
+      "description": "Integration to wake and put your PlayStation (PS4 or PS5) into standby",
+      "author": "Sean Takats",
+      "repository": "https://github.com/stakats/uc-intg-ps5-power",
+      "categories": ["media-player"],
+      "features": ["media_player"],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "ps5-power"
+    },
+    {
+      "id": "uc-intg-tapo",
+      "name": "Tapo Smart Devices",
+      "description": "Integration to control your TP-Link Tapo smart bulbs, light strips, and plugs",
+      "author": "Ashley Finney",
+      "repository": "https://github.com/AshleyFinney/uc-intg-tapo",
+      "categories": ["home-automation"],
+      "features": ["switch", "lighting", "sensor"],
       "official": false,
       "custom": true,
       "supports_backup": true,
-      "backup_min_version": "4.2.1",
-      "driver_id": "uc-spotify-integration"
+      "backup_min_version": "1.0.0",
+      "driver_id": "uc_intg_tapo"
+    },
+    {
+      "id": "dyson-uc",
+      "name": "Dyson",
+      "description": "Integration for Wi-Fi Dyson air purifiers, fans, heaters and humidifiers",
+      "author": "SBR Labs",
+      "repository": "https://github.com/sbr-labs/dyson-uc",
+      "categories": ["home-automation"],
+      "features": ["climate"],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "uc_intg_dyson_sbr"
+    },
+    {
+      "id": "uc-integration-bluos",
+      "name": "BluOS Streaming Players",
+      "description": "Integration for BluOS streaming players (Bluesound, NAD, and DALI devices)",
+      "author": "bjekel",
+      "repository": "https://github.com/bjekel/uc-integration-bluos",
+      "categories": ["media-player", "streaming", "av-receiver", "audio"],
+      "features": ["media_player", "remote"],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "bluos"
+    },
+    {
+      "id": "uc-acmeda-pulse",
+      "name": "Acmeda Pulse Hub",
+      "description": "Control Rollease Acmeda Pulse Hub v2 motorised blinds directly over the local network",
+      "author": "dgaust",
+      "repository": "https://github.com/dgaust/uc-acmeda-pulse",
+      "categories": ["home-automation"],
+      "features": ["cover"],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "acmeda_pulse"
+    },
+    {
+      "id": "uc-dashboard",
+      "name": "UC Dashboard",
+      "description": "UC Dashboard Integration for Unfolded Circle Remotes",
+      "author": "jstnjx",
+      "repository": "https://github.com/jstnjx/uc-dashboard",
+      "categories": ["home-automation", "utility"],
+      "features": [""],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "uc_dashboard"
     },
     {
       "id": "uc-intg-hass",
@@ -1185,6 +1368,20 @@
       "official": true,
       "supports_backup": false,
       "custom": false
+    },
+    {
+      "id": "uc-spotify-integration",
+      "name": "Spotify",
+      "description": "Control multiple Spotify accounts with playback, media browsing, search, and library access.",
+      "author": "Michael Wood",
+      "repository": "https://github.com/mwood77/unfolded-circle-spotify-integration",
+      "categories": ["media-player", "streaming"],
+      "features": ["media_player", "remote", "sensor", "select"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "backup_min_version": "4.2.1",
+      "driver_id": "uc-spotify-integration"
     }
   ],
   "categories": [
@@ -1316,7 +1513,9 @@
       "name": "kennymc.c",
       "description": "",
       "homepage": "https://www.github.com/kennymc-c",
-      "sponsorship_links": {}
+      "sponsorship_links": {
+        "ko-fi": "kennymcc"
+      }
     },
     {
       "name": "petercv",
@@ -1354,6 +1553,72 @@
       "name": "John J Carey",
       "description": "",
       "homepage": "https://www.github.com/johncarey70",
+      "sponsorship_links": {}
+    },
+    {
+      "name": "FYTA GmbH",
+      "description": "",
+      "homepage": "https://github.com/FYTA-GmbH",
+      "sponsorship_links": {}
+    },
+    {
+      "name": "James Smart",
+      "description": "",
+      "homepage": "https://github.com/James-Smart",
+      "sponsorship_links": {}
+    },
+    {
+      "name": "Quirin Lippl",
+      "description": "",
+      "homepage": "https://github.com/quintz",
+      "sponsorship_links": {}
+    },
+    {
+      "name": "ferdaze",
+      "description": "",
+      "homepage": "https://github.com/ferdaze",
+      "sponsorship_links": {}
+    },
+    {
+      "name": "Sean Takats",
+      "description": "",
+      "homepage": "https://github.com/seantakats",
+      "sponsorship_links": {}
+    },
+    {
+      "name": "Ashley Finney",
+      "description": "",
+      "homepage": "https://github.com/ashleyfinney",
+      "sponsorship_links": {}
+    },
+    {
+      "name": "SBR Labs",
+      "description": "",
+      "homepage": "https://github.com/sbr-labs",
+      "sponsorship_links": {}
+    },
+    {
+      "name": "bjekel",
+      "description": "",
+      "homepage": "https://github.com/bjekel",
+      "sponsorship_links": {}
+    },
+    {
+      "name": "dgaust",
+      "description": "",
+      "homepage": "https://github.com/dgaust",
+      "sponsorship_links": {}
+    },
+    {
+      "name": "jstnjx",
+      "description": "",
+      "homepage": "https://github.com/jstnjx",
+      "sponsorship_links": {}
+    },
+    {
+      "name": "mwood77",
+      "description": "",
+      "homepage": "https://github.com/mwood77",
       "sponsorship_links": {}
     },
     {
