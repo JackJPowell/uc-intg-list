@@ -1237,6 +1237,19 @@
       "driver_id": "uc_dashboard"
     },
     {
+      "id": "uc-remote-sync",
+      "name": "Remote Sync",
+      "description": "Remote Sync Integration for Unfolded Circle Remotes",
+      "author": "jstnjx",
+      "repository": "https://github.com/jstnjx/uc-remote-sync",
+      "categories": ["home-automation", "utility"],
+      "features": [""],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "remote_sync"
+    },
+    {
       "id": "uc-intg-hass",
       "name": "Home Assistant",
       "description": "Integration for the Home Assistant smart home platform",
