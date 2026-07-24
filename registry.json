@@ -769,6 +769,19 @@
       "driver_id": "uc_intg_nasa"
     },
     {
+      "id": "uc-intg-knx",
+      "name": "KNX Smart Home and Building Solutions.",
+      "description": "Integration for KNX Devices and Bridges",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-knx",
+      "categories": ["home-automation"],
+      "features": ["sensor","remote","cover"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "uc_intg_knx"
+    },
+    {
       "id": "uc-intg-lyngdorf",
       "name": "Lyngdorf",
       "description": "Lyngdorf processor/amplifier integration",
