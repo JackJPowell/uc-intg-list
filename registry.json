@@ -1250,6 +1250,19 @@
       "driver_id": "remote_sync"
     },
     {
+      "id": "ps5-control-uc",
+      "name": "PS5 Control",
+      "description": "Control PS5",
+      "author": "jstnjx / sbr",
+      "repository": "https://github.com/jstnjx/ps5-control-uc",
+      "categories": ["media_player", "remote"],
+      "features": [""],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "uc_intg_ps5_control_sbr"
+    },
+    {
       "id": "uc-intg-hass",
       "name": "Home Assistant",
       "description": "Integration for the Home Assistant smart home platform",
