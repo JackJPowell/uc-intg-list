@@ -1256,7 +1256,7 @@
       "author": "jstnjx",
       "repository": "https://github.com/jstnjx/uc-advanced-automations",
       "categories": ["home-automation", "utility", "remote"],
-      "features": [""],
+      "features": ["remote"],
       "official": false,
       "custom": true,
       "supports_backup": false,
