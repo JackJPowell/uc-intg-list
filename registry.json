@@ -769,6 +769,58 @@
       "driver_id": "uc_intg_nasa"
     },
     {
+      "id": "uc-intg-knx",
+      "name": "KNX Smart Home and Building Solutions.",
+      "description": "Integration for KNX Devices and Bridges",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-knx",
+      "categories": ["home-automation"],
+      "features": ["sensor","remote","cover"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "uc_intg_knx"
+    },
+    {
+      "id": "uc-intg-ezbeq",
+      "name": "BEQ (EZBEQ) Server Support.",
+      "description": "Integration for BEQ Custom Calibration Files",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-ezbeq",
+      "categories": ["media-player"],
+      "features": ["media_player"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "uc_intg_ezbeq"
+    },
+    {
+      "id": "uc-intg-bose",
+      "name": "Bose Music Supported Devices.",
+      "description": "Integration for Bose Music soundbars and speakers",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-bose",
+      "categories": ["media-player","Audio"],
+      "features": ["media_player","remote","sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "uc_intg_bose"
+    },
+    {
+      "id": "uc-intg-soundtouch",
+      "name": "Bose Soundtouch Supported Devices.",
+      "description": "Integration for Bose Soundtouch soundbars and speakers",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-soundtouch",
+      "categories": ["media-player","Audio"],
+      "features": ["media_player","remote","sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "uc_intg_soundtouch"
+    },
+    {
       "id": "uc-intg-lyngdorf",
       "name": "Lyngdorf",
       "description": "Lyngdorf processor/amplifier integration",
