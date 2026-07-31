@@ -1250,17 +1250,17 @@
       "driver_id": "remote_sync"
     },
     {
-      "id": "ps5-control-uc",
-      "name": "PS5 Control",
-      "description": "Control PS5",
-      "author": "sbr-labs",
-      "repository": "https://github.com/sbr-labs/ps5-control-uc",
-      "categories": ["media_player", "remote"],
+      "id": "uc-advanced-automations",
+      "name": "Advanced Automations",
+      "description": "Build local automations",
+      "author": "jstnjx",
+      "repository": "https://github.com/jstnjx/uc-advanced-automations",
+      "categories": ["home-automation", "utility", "remote"],
       "features": [""],
       "official": false,
       "custom": true,
       "supports_backup": false,
-      "driver_id": "uc_intg_ps5_control_sbr"
+      "driver_id": "advanced_automations"
     },
     {
       "id": "uc-intg-hass",
