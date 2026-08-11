@@ -411,6 +411,19 @@
       "driver_id": "uc_intg_skyq"
     },
     {
+      "id": "uc-intg-sky-stream",
+      "name": "Sky Stream",
+      "description": "Sky Stream TV box integration",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-stream",
+      "categories": ["media-player", "tv"],
+      "features": ["media_player", "remote"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "uc_intg_sky_stream"
+    },
+    {
       "id": "uc-intg-smartthings",
       "name": "SmartThings",
       "description": "Samsung SmartThings integration",
