@@ -1720,6 +1720,15 @@
       "sponsorship_links": {}
     },
     {
+      "name": "tinogo",
+      "description": "",
+      "homepage": "https://github.com/tinogo",
+      "sponsorship_links": {
+        "github": "tinogo"
+        "paypal": "tinogo89"
+      }
+    },
+    {
       "name": "Unfolded Circle",
       "description": "",
       "homepage": "https://www.unfoldedcircle.com",
