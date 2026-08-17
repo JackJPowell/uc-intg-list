@@ -5,19 +5,6 @@
   "last_updated": "2026-07-16",
   "integrations": [
     {
-      "id": "uc-intg-awol-valerion",
-      "name": "AWOL Valerion",
-      "description": "Unfolded Circle Integration for AWOL Valerion projectors",
-      "author": "Tino Goratsch",
-      "repository": "https://github.com/tinogo/uc-intg-awol-valerion",
-      "categories": ["projector"],
-      "features": ["media_player", "remote", "select", "sensor"],
-      "official": false,
-      "custom": true,
-      "supports_backup": true,
-      "driver_id": "integration-awol-valerion"
-    },
-    {
       "id": "uc-intg-broadlink",
       "name": "Broadlink",
       "description": "Unfolded Circle Integration for Broadlink Devices",
@@ -478,19 +465,6 @@
       "driver_id": "uc-intg-steam"
     },
     {
-      "id": "uc-intg-stormaudio",
-      "name": "StormAudio",
-      "description": "Unfolded Circle Integration for StormAudio devices",
-      "author": "Tino Goratsch",
-      "repository": "https://github.com/tinogo/uc-intg-stormaudio",
-      "categories": ["av-receiver"],
-      "features": ["media_player", "remote", "select", "sensor"],
-      "official": false,
-      "custom": true,
-      "supports_backup": true,
-      "driver_id": "integration-stormaudio-ng"
-    },
-    {
       "id": "uc-intg-synology-system",
       "name": "Synology System",
       "description": "Synology NAS system integration",
@@ -859,6 +833,32 @@
       "custom": true,
       "supports_backup": true,
       "driver_id": "uc_intg_soundtouch"
+    },
+    {
+      "id": "uc-intg-stormaudio",
+      "name": "StormAudio",
+      "description": "Unfolded Circle Integration for StormAudio devices",
+      "author": "Tino Goratsch",
+      "repository": "https://github.com/tinogo/uc-intg-stormaudio",
+      "categories": ["av-receiver"],
+      "features": ["media_player", "remote", "select", "sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "integration-stormaudio-ng"
+    },
+    {
+      "id": "uc-intg-awol-valerion",
+      "name": "AWOL Valerion",
+      "description": "Unfolded Circle Integration for AWOL Valerion projectors",
+      "author": "Tino Goratsch",
+      "repository": "https://github.com/tinogo/uc-intg-awol-valerion",
+      "categories": ["projector"],
+      "features": ["media_player", "remote", "select", "sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "integration-awol-valerion"
     },
     {
       "id": "uc-intg-lyngdorf",
@@ -1724,7 +1724,7 @@
       "description": "",
       "homepage": "https://github.com/tinogo",
       "sponsorship_links": {
-        "github": "tinogo"
+        "github": "tinogo",
         "paypal": "tinogo89"
       }
     },
