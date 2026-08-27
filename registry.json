@@ -848,6 +848,19 @@
       "driver_id": "uc_intg_jbl_one"
     },
     {
+      "id": "uc-intg-motion-blinds",
+      "name": "Motion Blinds Devices",
+      "description": "Integration for Motion Blinds Devices",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-motion-blinds",
+      "categories": ["media-player", "Remote"],
+      "features": ["media_player", "remote", "sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "uc_intg_motion_blinds"
+    },
+    {
       "id": "uc-intg-stormaudio",
       "name": "StormAudio",
       "description": "Unfolded Circle Integration for StormAudio devices",
