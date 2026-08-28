@@ -411,6 +411,19 @@
       "driver_id": "uc_intg_skyq"
     },
     {
+      "id": "uc-intg-sky-stream",
+      "name": "Sky Stream",
+      "description": "Sky Stream TV box integration",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-stream",
+      "categories": ["media-player", "tv"],
+      "features": ["media_player", "remote"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "uc_intg_sky_stream"
+    },
+    {
       "id": "uc-intg-smartthings",
       "name": "SmartThings",
       "description": "Samsung SmartThings integration",
@@ -734,7 +747,7 @@
       "name": "Epson PJLink Projectors",
       "description": "Control your network-connected Epson projectors via PJLink protocol",
       "author": "Meir Miyara",
-      "repository": "https://github.com/mase1981/uc-intg-epson-pjlink",
+      "repository": "https://github.com/mase1981/uc-intg-epson",
       "categories": ["media-player", "remote", "projector"],
       "features": ["media_player", "remote"],
       "official": false,
@@ -771,12 +784,12 @@
     },
     {
       "id": "uc-intg-knx",
-      "name": "KNX Smart Home and Building Solutions.",
+      "name": "KNX Smart Home and Building Solutions",
       "description": "Integration for KNX Devices and Bridges",
       "author": "Meir Miyara",
       "repository": "https://github.com/mase1981/uc-intg-knx",
       "categories": ["home-automation"],
-      "features": ["sensor","remote","cover"],
+      "features": ["sensor", "remote", "cover"],
       "official": false,
       "custom": true,
       "supports_backup": true,
@@ -784,7 +797,7 @@
     },
     {
       "id": "uc-intg-ezbeq",
-      "name": "BEQ (EZBEQ) Server Support.",
+      "name": "BEQ (EZBEQ) Server Support",
       "description": "Integration for BEQ Custom Calibration Files",
       "author": "Meir Miyara",
       "repository": "https://github.com/mase1981/uc-intg-ezbeq",
@@ -797,12 +810,12 @@
     },
     {
       "id": "uc-intg-bose",
-      "name": "Bose Music Supported Devices.",
+      "name": "Bose Music Supported Devices",
       "description": "Integration for Bose Music soundbars and speakers",
       "author": "Meir Miyara",
       "repository": "https://github.com/mase1981/uc-intg-bose",
-      "categories": ["media-player","Audio"],
-      "features": ["media_player","remote","sensor"],
+      "categories": ["media-player", "Audio"],
+      "features": ["media_player", "remote", "sensor"],
       "official": false,
       "custom": true,
       "supports_backup": true,
@@ -810,16 +823,68 @@
     },
     {
       "id": "uc-intg-soundtouch",
-      "name": "Bose Soundtouch Supported Devices.",
+      "name": "Bose Soundtouch Supported Devices",
       "description": "Integration for Bose Soundtouch soundbars and speakers",
       "author": "Meir Miyara",
       "repository": "https://github.com/mase1981/uc-intg-soundtouch",
-      "categories": ["media-player","Audio"],
-      "features": ["media_player","remote","sensor"],
+      "categories": ["media-player", "Audio"],
+      "features": ["media_player", "remote", "sensor"],
       "official": false,
       "custom": true,
       "supports_backup": true,
       "driver_id": "uc_intg_soundtouch"
+    },
+    {
+      "id": "uc-intg-jbl-one",
+      "name": "JBL Soundbar Devices",
+      "description": "Integration for JBL soundbars and speakers",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-jbl-one",
+      "categories": ["media-player", "Audio"],
+      "features": ["media_player", "remote", "sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "uc_intg_jbl_one"
+    },
+    {
+      "id": "uc-intg-motion-blinds",
+      "name": "Motion Blinds Devices",
+      "description": "Integration for Motion Blinds Devices",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-motion-blinds",
+      "categories": ["media-player", "Remote"],
+      "features": ["media_player", "remote", "sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "uc_intg_motion_blinds"
+    },
+    {
+      "id": "uc-intg-stormaudio",
+      "name": "StormAudio",
+      "description": "Unfolded Circle Integration for StormAudio devices",
+      "author": "Tino Goratsch",
+      "repository": "https://github.com/tinogo/uc-intg-stormaudio",
+      "categories": ["av-receiver"],
+      "features": ["media_player", "remote", "select", "sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "integration-stormaudio-ng"
+    },
+    {
+      "id": "uc-intg-awol-valerion",
+      "name": "AWOL Valerion",
+      "description": "Unfolded Circle Integration for AWOL Valerion projectors",
+      "author": "Tino Goratsch",
+      "repository": "https://github.com/tinogo/uc-intg-awol-valerion",
+      "categories": ["projector"],
+      "features": ["media_player", "remote", "select", "sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "integration-awol-valerion"
     },
     {
       "id": "uc-intg-lyngdorf",
@@ -950,6 +1015,19 @@
       "custom": true,
       "supports_backup": false,
       "driver_id": "lgsoundbar_driver"
+    },
+    {
+      "id": "appletv-siri",
+      "name": "Apple TV Siri Voice",
+      "description": "Apple TV Siri Voice integration for Unfolded Circle Remotes",
+      "author": "albaintor",
+      "repository": "https://github.com/albaintor/appletv-siri",
+      "categories": ["voice-assistant"],
+      "features": ["voice-assistant"],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "appletv_siri_integration"
     },
     {
       "id": "ucr-integration-sonyADCP",
@@ -1679,6 +1757,15 @@
       "description": "",
       "homepage": "https://github.com/jstnjx",
       "sponsorship_links": {}
+    },
+    {
+      "name": "Tino Goratsch",
+      "description": "",
+      "homepage": "https://github.com/tinogo",
+      "sponsorship_links": {
+        "github": "tinogo",
+        "paypal": "tinogo89"
+      }
     },
     {
       "name": "Unfolded Circle",
