@@ -1394,6 +1394,19 @@
       "driver_id": "advanced_automations"
     },
     {
+      "id": "uc-intg-appletv-keyboard",
+      "name": "Apple TV Keyboard",
+      "description": "Apple TV keyboard input using media player search as workaround",
+      "author": "jstnjx",
+      "repository": "https://github.com/jstnjx/uc-intg-appletv-keyboard",
+      "categories": ["home-automation", "utility", "remote"],
+      "features": [""],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "appletv_keyboard"
+    },
+    {
       "id": "uc-intg-hass",
       "name": "Home Assistant",
       "description": "Integration for the Home Assistant smart home platform",
