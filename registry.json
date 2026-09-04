@@ -861,6 +861,58 @@
       "driver_id": "uc_intg_motion_blinds"
     },
     {
+      "id": "uc-intg-yolink",
+      "name": "Yolink Devices",
+      "description": "Integration for Yolink Devices",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-yolink",
+      "categories": ["media-player", "Remote"],
+      "features": ["media_player", "remote", "sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "uc_intg_yolink"
+    },
+    {
+      "id": "uc-intg-schlage",
+      "name": "Schlage Devices",
+      "description": "Integration for Schlage Devices",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-schlage",
+      "categories": ["media-player", "Remote"],
+      "features": ["media_player", "remote", "sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "uc_intg_schlage"
+    },
+    {
+      "id": "uc-intg-econet",
+      "name": "Rheem Econet Devices",
+      "description": "Integration for Rheem econet Devices",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-econet",
+      "categories": ["media-player", "Remote"],
+      "features": ["media_player", "remote", "sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "uc_intg_econet"
+    },
+    {
+      "id": "uc-intg-rainbird",
+      "name": "RainBird Devices",
+      "description": "Integration for Rainbird Devices",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-rainbird",
+      "categories": ["media-player", "Remote"],
+      "features": ["media_player", "remote", "sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "uc_intg_rainbird"
+    },
+    {
       "id": "uc-intg-stormaudio",
       "name": "StormAudio",
       "description": "Unfolded Circle Integration for StormAudio devices",
