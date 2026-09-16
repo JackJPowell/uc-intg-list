@@ -415,7 +415,7 @@
       "name": "Sky Stream",
       "description": "Sky Stream TV box integration",
       "author": "Meir Miyara",
-      "repository": "https://github.com/mase1981/uc-intg-stream",
+      "repository": "https://github.com/mase1981/uc-intg-sky-stream",
       "categories": ["media-player", "tv"],
       "features": ["media_player", "remote"],
       "official": false,
