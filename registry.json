@@ -1468,7 +1468,7 @@
       "features": ["media_player", "remote"],
       "official": false,
       "custom": true,
-      "supports_backup": false,
+      "supports_backup": true,
       "driver_id": "music_play"
     },
     {
@@ -1481,7 +1481,7 @@
       "features": ["remote"],
       "official": false,
       "custom": true,
-      "supports_backup": false,
+      "supports_backup": true,
       "driver_id": "hue_sync_box"
     },
     {
