@@ -1459,6 +1459,45 @@
       "driver_id": "appletv_keyboard"
     },
     {
+      "id": "uc-deezer-play",
+      "name": "Music Play",
+      "description": "Remote-3 focused Music Assistant controller with browsing, search, queue, radio, favorites and playback controls",
+      "author": "Oliver Berndt",
+      "repository": "https://github.com/daCream87/uc-deezer-play",
+      "categories": ["media-player"],
+      "features": ["media_player", "remote"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "music_play"
+    },
+    {
+      "id": "uc-hue-sync-box",
+      "name": "Philips Hue Sync Box",
+      "description": "Direct local-network control for Philips Hue Play HDMI Sync Box",
+      "author": "Oliver Berndt",
+      "repository": "https://github.com/daCream87/uc-hue-sync-box",
+      "categories": ["lighting", "home-automation"],
+      "features": ["remote"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "hue_sync_box"
+    },
+    {
+      "id": "uc-philips-titanos",
+      "name": "Philips Titan OS TV",
+      "description": "Direct local-network control for Philips Titan OS televisions using JointSpace API 6",
+      "author": "Oliver Berndt",
+      "repository": "https://github.com/daCream87/uc-philips-titanos",
+      "categories": ["tv", "media-player"],
+      "features": ["remote"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "philips_titanos"
+    },
+    {
       "id": "uc-intg-hass",
       "name": "Home Assistant",
       "description": "Integration for the Home Assistant smart home platform",
@@ -1831,6 +1870,12 @@
         "github": "tinogo",
         "paypal": "tinogo89"
       }
+    },
+    {
+      "name": "Oliver Berndt",
+      "description": "",
+      "homepage": "https://github.com/daCream87",
+      "sponsorship_links": {}
     },
     {
       "name": "Unfolded Circle",
