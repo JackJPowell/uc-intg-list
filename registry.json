@@ -913,6 +913,45 @@
       "driver_id": "uc_intg_rainbird"
     },
     {
+      "id": "uc-intg-shelly",
+      "name": "Shelly Devices",
+      "description": "Integration for Shelly Devices",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-shelly",
+      "categories": ["media-player", "Remote"],
+      "features": ["media_player", "remote", "sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "shelly"
+    },
+    {
+      "id": "uc-intg-ecobee",
+      "name": "Ecobee Devices",
+      "description": "Integration for ecobee Devices",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-ecobee",
+      "categories": ["media-player", "Remote"],
+      "features": ["media_player", "remote", "sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "ecobee"
+    },
+    {
+      "id": "uc-intg-kef-speakers",
+      "name": "RainBird Devices",
+      "description": "Integration for KEF Network Connected Speakers",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-kef-speakers",
+      "categories": ["media-player", "Remote"],
+      "features": ["media_player", "remote", "sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "kef_speakers"
+    },
+    {
       "id": "uc-intg-stormaudio",
       "name": "StormAudio",
       "description": "Unfolded Circle Integration for StormAudio devices",
