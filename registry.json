@@ -940,7 +940,7 @@
     },
     {
       "id": "uc-intg-kef-speakers",
-      "name": "RainBird Devices",
+      "name": "KEF Network Speakers",
       "description": "Integration for KEF Network Connected Speakers",
       "author": "Meir Miyara",
       "repository": "https://github.com/mase1981/uc-intg-kef-speakers",
