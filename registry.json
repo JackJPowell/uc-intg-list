@@ -952,6 +952,19 @@
       "driver_id": "kef_speakers"
     },
     {
+      "id": "uc-intg-sports",
+      "name": "Worldwide Sports",
+      "description": "Worldwide sports: Games, Scores, Data, Live stats",
+      "author": "Meir Miyara",
+      "repository": "https://github.com/mase1981/uc-intg-sports",
+      "categories": ["media-player", "sensor"],
+      "features": ["media_player", "select", "sensor"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "driver_id": "sports"
+    },
+    {
       "id": "uc-intg-stormaudio",
       "name": "StormAudio",
       "description": "Unfolded Circle Integration for StormAudio devices",
