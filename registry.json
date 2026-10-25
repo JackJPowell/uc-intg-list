@@ -1550,6 +1550,20 @@
       "driver_id": "philips_titanos"
     },
     {
+      "id": "uc-remote-self-control",
+      "name": "Remote Self-Control",
+      "description": "Lets the remote control itself (backlight, display, sleep, sound, haptics) and adds Smart Controls, sliders, state icons, return buttons and Smart Launchers, built in a browser",
+      "author": "Sat32blk",
+      "repository": "https://github.com/Sat32blk/uc-remote-self-control",
+      "categories": ["utility", "remote"],
+      "features": ["media_player", "light", "switch", "select", "sensor", "button"],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "backup_min_version": "0.8.8",
+      "driver_id": "self_control"
+    },
+    {
       "id": "uc-intg-hass",
       "name": "Home Assistant",
       "description": "Integration for the Home Assistant smart home platform",
