@@ -1552,7 +1552,7 @@
     {
       "id": "uc-remote-self-control",
       "name": "Remote Self-Control",
-      "description": "Lets the remote control itself (backlight, display, sleep, sound, haptics) and adds a Page Editor for activities, pages and buttons, plus Smart Controls, sliders, state icons, return buttons and Smart Launchers",
+      "description": "Page editor, smart controls and settings for the remote itself",
       "author": "Sat32blk",
       "repository": "https://github.com/Sat32blk/uc-remote-self-control",
       "categories": ["utility", "remote"],
