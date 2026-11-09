@@ -1525,6 +1525,20 @@
       "driver_id": "custom-select"
     },
     {
+      "id": "uc-intg-pegasus-bridge",
+      "name": "Pegasus Bridge",
+      "description": "Links the remote to Pegasus Hub, which runs integrations on a NAS or server so they don't use install slots or battery",
+      "author": "Sat32blk",
+      "repository": "https://github.com/Sat32blk/Pegasus",
+      "categories": ["utility"],
+      "features": [],
+      "official": false,
+      "custom": true,
+      "supports_backup": false,
+      "driver_id": "pegasus_bridge",
+      "asset_pattern": "uc-intg-pegasus-bridge-.*\\.tar\\.gz$"
+    },
+    {
       "id": "uc-deezer-play",
       "name": "Music Play",
       "description": "Remote-3 focused Music Assistant controller with browsing, search, queue, radio, favorites and playback controls",
