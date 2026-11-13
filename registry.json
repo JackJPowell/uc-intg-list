@@ -1616,6 +1616,18 @@
       "asset_pattern": "-aarch64\\.tar\\.gz$"
     },
     {
+      "id": "uc-intg-hyperion",
+      "name": "AudioControl Hyperion Apr16",
+      "description": "Controls the network attached AVP.",
+      "author": "Ivor M",
+      "repository": "https://github.com/fattykidd/uc-intg-hyperion",
+      "categories": ["av-receiver"],
+      "features": ["media_player", "switch", "select", "sensor", "button"],
+      "official": false,
+      "custom": true,
+      "driver_id": "uc-intg-hyperion"
+    },
+    {
       "id": "uc-intg-hass",
       "name": "Home Assistant",
       "description": "Integration for the Home Assistant smart home platform",
@@ -1993,6 +2005,12 @@
       "name": "Oliver Berndt",
       "description": "",
       "homepage": "https://github.com/daCream87",
+      "sponsorship_links": {}
+    },
+    {
+      "name": "Ivor M",
+      "description": "",
+      "homepage": "https://www.github.com/fattykidd",
       "sponsorship_links": {}
     },
     {
