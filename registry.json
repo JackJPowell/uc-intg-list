@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "version": "1.0.0",
   "description": "Community custom integrations registry for Unfolded Circle Remote. Official integrations delivered with firmware are read-only and not managed by this registry.",
-  "last_updated": "2026-11-04",
+  "last_updated": "2026-11-21",
   "integrations": [
     {
       "id": "uc-intg-broadlink",
@@ -1578,6 +1578,24 @@
       "driver_id": "philips_titanos"
     },
     {
+      "id": "uc-intg-philips-titanos",
+      "name": "Philips Titan OS TV (Ambilight)",
+      "description": "Direct local-network control for Philips Titan OS televisions (JointSpace API 6), with Ambilight control",
+      "author": "hugbig",
+      "repository": "https://github.com/hugbig/uc-intg-philips-titanos",
+      "categories": [
+        "tv"
+      ],
+      "features": [
+        "remote"
+      ],
+      "official": false,
+      "custom": true,
+      "supports_backup": true,
+      "backup_min_version": "1.0.0",
+      "driver_id": "philips_titanos_ambilight"
+    },
+    {
       "id": "uc-remote-self-control",
       "name": "Remote Self-Control",
       "description": "Page editor, smart controls and settings for the remote itself",
@@ -2011,6 +2029,12 @@
       "name": "Ivor M",
       "description": "",
       "homepage": "https://www.github.com/fattykidd",
+      "sponsorship_links": {}
+    },
+    {
+      "name": "hugbig",
+      "description": "",
+      "homepage": "https://www.github.com/hugbig",
       "sponsorship_links": {}
     },
     {
