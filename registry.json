@@ -474,7 +474,8 @@
       "features": ["sensor"],
       "official": false,
       "custom": true,
-      "supports_backup": false,
+      "supports_backup": true,
+      "backup_min_version": "2.0.0",
       "driver_id": "uc_synology_system"
     },
     {
